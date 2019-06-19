@@ -1,11 +1,11 @@
 import React from 'react'
-import ProductCard from './ProductCard'
 import './product.css';
-import Slider from './SliderComponent/Slider';
-import MyCom from './OldSLider/oldslider';
+import MultipleItems from './newCorosal/cor';
 
 export default function ProductContainer () {
   return (
-    <MyCom sliderWidth="400" sliderHeight="250"/>
+    <>
+    <MultipleItems />
+    </>
   )
 }
